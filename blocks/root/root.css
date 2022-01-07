@@ -19,6 +19,7 @@
 }
 
 .root {
+  margin: 0;
   background-color: #2A2C2F;
   color: #fff;
   font-family: 'Inter', Arial, sans-serif;
