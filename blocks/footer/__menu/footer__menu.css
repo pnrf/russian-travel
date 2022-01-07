@@ -1,5 +1,6 @@
 .footer__menu {
   display: flex;
+  gap: 18px;
   margin: 0;
   padding: 0;
   list-style: none;
