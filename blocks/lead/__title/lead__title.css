@@ -1,0 +1,9 @@
+.lead__title {
+  margin: 0 0 32px;
+  width: 720px;
+  min-height: 200px;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+  text-align: center;
+}
