@@ -1,4 +1,5 @@
 /* root */
+@import url(../vendor/normalize.css);
 @import url(../blocks/root/root.css);
 
 /* page */
