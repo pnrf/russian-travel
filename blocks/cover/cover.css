@@ -4,11 +4,29 @@
   justify-content: center;
   align-items: center;
   margin: 92px auto 92px;
-  background: url(../../images/cover-trains.jpg) 1184px 740px no-repeat;
-  background-size: contain;
-  background-position: center;
-  position: relative;
   width: 1184px;
   height: 740px;
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  transition-duration: 0.5s;
+}
+
+.cover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2A2C2F;
+  opacity: 0.3;
   z-index: 0;
+}
+
+.cover:hover {
+  opacity: 0.8;
 }
