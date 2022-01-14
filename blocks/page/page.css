@@ -2,9 +2,17 @@
   box-sizing: border-box;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 28px 48px 24px;
 }
 
-/* @media (width: ) {
+/* @media (min-width: 1024px) and (max-width: 1279px) {
+} */
 
+/* @media (min-width: 768px) and (max-width: 1023px) {
+  padding: 28px
+} */
+
+/* @media (min-width: 425px) and (max-width: 767px) {
+} */
+
+/* @media (max-width: 424px) {
 } */

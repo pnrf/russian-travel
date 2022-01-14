@@ -1,9 +1,6 @@
 .lead {
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin: 0 auto;
-  padding: 72px 148px 0;
-  max-width: 984px;
-  min-height: 1005px;
+  padding-top: 56px;
 }
