@@ -4,3 +4,9 @@
   margin: 0 auto;
   padding-top: 56px;
 }
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .lead {
+    padding-top: 48px;
+  }
+}
