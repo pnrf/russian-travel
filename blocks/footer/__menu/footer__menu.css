@@ -5,3 +5,10 @@
   padding: 0;
   list-style: none;
 }
+
+@media screen and (max-width: 320px) {
+  .footer__menu {
+    display: block;
+    padding: 0 0 48px;
+  }
+}

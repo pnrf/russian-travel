@@ -4,5 +4,22 @@
   grid-template-rows: repeat(2, auto);
   gap: 48px 40px;
   align-items: start;
-  /* margin: 0; */
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    gap: 32px;
+  }
 }
