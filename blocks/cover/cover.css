@@ -46,7 +46,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 685px) {
   .cover {
     margin: 66px auto 64px;
     max-width: 320px;

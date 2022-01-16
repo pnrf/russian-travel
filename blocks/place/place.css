@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 685px) {
   .place {
     gap: 32px;
     display: block;

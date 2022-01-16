@@ -4,6 +4,7 @@
   align-items: center;
   margin: 0;
   padding: 0 48px 24px;
+  transition-duration: 0.5s;
 }
 
 @media screen and (max-width: 768px) {
@@ -12,9 +13,16 @@
   }
 }
 
+@media screen and (max-width: 685px) {
+  .footer {
+    padding: 0 0 24px 16px;
+    display: block;
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .footer {
-    display: block;
-    padding: 0 0 24px 16px;
+    text-align: start;
   }
 }

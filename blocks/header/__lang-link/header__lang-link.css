@@ -7,7 +7,7 @@
   align-self: flex-end;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 685px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;

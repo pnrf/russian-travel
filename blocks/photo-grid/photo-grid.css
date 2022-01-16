@@ -22,11 +22,11 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 685px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     gap: 12px;
-    max-width: 288px;
+    min-width: 288px;
     margin: 64px 16px;
   }
 }
