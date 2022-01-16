@@ -21,5 +21,7 @@
   .place__image {
     max-width: 320px;
     max-height: 320px;
+    width: 100%;
+    margin-bottom: 32px;
   }
 }

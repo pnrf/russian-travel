@@ -8,7 +8,8 @@
 
 @media screen and (max-width: 320px) {
   .footer__menu {
-    display: block;
+    flex-direction: column;
+    gap: 32px;
     padding: 0 0 48px;
   }
 }
