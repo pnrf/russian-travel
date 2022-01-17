@@ -2,14 +2,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0;
+  margin: 0 auto;
   padding: 0 48px 24px;
-  transition-duration: 0.5s;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1279px) {
+  .footer {
+    padding: 0 48px 48px;
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
   .footer {
     padding: 0 24px 24px;
+    max-width: 720px;
   }
 }
 
@@ -17,12 +24,6 @@
   .footer {
     padding: 0 0 24px 16px;
     display: block;
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .footer {
-    text-align: start;
+    max-width: 320px;
   }
 }
