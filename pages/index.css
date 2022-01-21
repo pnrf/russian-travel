@@ -1,3 +1,8 @@
+/* общие стили */
+
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
 /* root */
 @import url(../blocks/root/root.css);
 
@@ -28,6 +33,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
+@import url(../blocks/intro/__list-item/_font_bold/intro__list-item_font_bold.css);
 
 /* photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);
