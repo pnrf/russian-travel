@@ -4,6 +4,11 @@
   grid-template-rows: repeat(2, auto);
   gap: 48px 40px;
   align-items: start;
+  padding-bottom: 80px;
+}
+
+.place:last-child {
+  padding-bottom: 0;
 }
 
 @media screen and (max-width: 1279px) {
@@ -15,6 +20,7 @@
 @media screen and (max-width: 1023px) {
   .place {
     gap: 48px 28px;
+    padding-bottom: 73px;
   }
 }
 
@@ -22,5 +28,6 @@
   .place {
     gap: 32px;
     display: block;
+    padding-bottom: 50px;
   }
 }

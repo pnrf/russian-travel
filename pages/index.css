@@ -42,6 +42,9 @@
 /* places */
 @import url(../blocks/places/places.css);
 
+/* places__list */
+@import url(../blocks/places__list/places__list.css);
+
 /* place */
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
