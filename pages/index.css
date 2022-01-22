@@ -33,7 +33,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
-@import url(../blocks/intro/__list-item/_text_style/intro__list-item__text_style.css);
+@import url(../blocks/intro/__list-item/_text_style/intro__list-item_text_style.css);
 
 /* photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);
